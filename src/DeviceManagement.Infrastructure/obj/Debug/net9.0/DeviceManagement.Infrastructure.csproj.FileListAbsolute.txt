@@ -1,0 +1,15 @@
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.deps.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.AssemblyReference.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceMa.1EC1BA49.Up2Date
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/refint/DeviceManagement.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/ref/DeviceManagement.Infrastructure.dll

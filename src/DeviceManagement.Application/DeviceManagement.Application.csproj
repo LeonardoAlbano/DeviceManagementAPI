@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DeviceManagement.Communication\DeviceManagement.Communication.csproj" />
+      <ProjectReference Include="..\DeviceManagement.Domain\DeviceManagement.Domain.csproj" />
+      <ProjectReference Include="..\DeviceManagement.Exception\DeviceManagement.Exception.csproj" />
+    </ItemGroup>
+
+</Project>

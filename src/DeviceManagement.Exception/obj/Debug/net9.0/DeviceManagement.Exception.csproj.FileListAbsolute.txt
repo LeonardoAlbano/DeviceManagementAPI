@@ -1,0 +1,11 @@
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.deps.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/refint/DeviceManagement.Exception.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/ref/DeviceManagement.Exception.dll

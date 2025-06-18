@@ -1,0 +1,11 @@
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.deps.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/refint/DeviceManagement.Communication.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/ref/DeviceManagement.Communication.dll

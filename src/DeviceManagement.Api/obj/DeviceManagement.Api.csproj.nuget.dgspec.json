@@ -1,0 +1,412 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/DeviceManagement.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/DeviceManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/DeviceManagement.Api.csproj",
+        "projectName": "DeviceManagement.Api",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/DeviceManagement.Api.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/DeviceManagement.Application.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/DeviceManagement.Application.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/DeviceManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/DeviceManagement.Application.csproj",
+        "projectName": "DeviceManagement.Application",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/DeviceManagement.Application.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj",
+        "projectName": "DeviceManagement.Communication",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj",
+        "projectName": "DeviceManagement.Domain",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj",
+        "projectName": "DeviceManagement.Exception",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/DeviceManagement.Exception.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj",
+        "projectName": "DeviceManagement.Infrastructure",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

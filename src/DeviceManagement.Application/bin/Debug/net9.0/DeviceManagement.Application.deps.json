@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DeviceManagement.Application/1.0.0": {
+        "dependencies": {
+          "DeviceManagement.Communication": "1.0.0",
+          "DeviceManagement.Domain": "1.0.0",
+          "DeviceManagement.Exception": "1.0.0"
+        },
+        "runtime": {
+          "DeviceManagement.Application.dll": {}
+        }
+      },
+      "DeviceManagement.Communication/1.0.0": {
+        "runtime": {
+          "DeviceManagement.Communication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DeviceManagement.Domain/1.0.0": {
+        "runtime": {
+          "DeviceManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DeviceManagement.Exception/1.0.0": {
+        "runtime": {
+          "DeviceManagement.Exception.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeviceManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeviceManagement.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeviceManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeviceManagement.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
