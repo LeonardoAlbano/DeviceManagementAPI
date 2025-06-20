@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement.Exception"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement.Infrastructure", "src\DeviceManagement.Infrastructure\DeviceManagement.Infrastructure.csproj", "{CE106723-D175-4399-992C-9F7C0741CFBF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{6FBA523D-05DA-4BCF-8763-BF5055C6596E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement.Application.Tests", "tests\DeviceManagement.Application.Tests\DeviceManagement.Application.Tests.csproj", "{27D8429A-CD9E-43B5-B854-252AF5030FE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement.Domain.Tests", "tests\DeviceManagement.Domain.Tests\DeviceManagement.Domain.Tests.csproj", "{9368EF65-F761-40BC-8C47-A851F0CFBFA5}"

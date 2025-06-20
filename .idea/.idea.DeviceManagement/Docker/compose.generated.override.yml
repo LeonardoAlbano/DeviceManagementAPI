@@ -1,0 +1,20 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  devicemanagement.api:
+    build:
+      context: "/Users/leonardoalbano/RiderProjects/DeviceManagement"
+      dockerfile: "src/DeviceManagement.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/DeviceManagement.Api.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "devicemanagement.api:dev"
+    ports: []
+    volumes:
+    - "/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api:/app:rw"
+    - "/Users/leonardoalbano/RiderProjects/DeviceManagement:/src:rw"
+    - "/Users/leonardoalbano/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
