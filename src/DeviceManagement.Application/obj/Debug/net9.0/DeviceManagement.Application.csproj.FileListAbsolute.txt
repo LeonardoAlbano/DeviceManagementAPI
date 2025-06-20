@@ -17,3 +17,4 @@
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/obj/Debug/net9.0/refint/DeviceManagement.Application.dll
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.pdb
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/obj/Debug/net9.0/ref/DeviceManagement.Application.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.sourcelink.json

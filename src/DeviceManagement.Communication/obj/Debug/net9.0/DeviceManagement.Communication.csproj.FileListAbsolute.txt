@@ -9,3 +9,8 @@
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/refint/DeviceManagement.Communication.dll
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.pdb
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/ref/DeviceManagement.Communication.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.sourcelink.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.AssemblyReference.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceMa.8948A734.Up2Date

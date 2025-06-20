@@ -9,3 +9,7 @@
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/refint/DeviceManagement.Domain.dll
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.pdb
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/ref/DeviceManagement.Domain.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.sourcelink.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.runtimeconfig.json
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.csproj.AssemblyReference.cache
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.genruntimeconfig.cache

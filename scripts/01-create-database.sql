@@ -1,15 +1,15 @@
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'DeviceManagementDB')
 BEGIN
     CREATE DATABASE DeviceManagementDB;
-    PRINT 'Banco DeviceManagementDB criado com sucesso!';
+    PRINT 'Database DeviceManagementDB created successfully!';
 END
 ELSE
 BEGIN
-    PRINT 'Banco DeviceManagementDB já existe.';
+    PRINT 'Database DeviceManagementDB already exists.';
 END
 GO
 
 USE DeviceManagementDB;
 GO
 
-PRINT 'Conectado ao banco DeviceManagementDB';
+PRINT 'Connected to DeviceManagementDB database';

@@ -12,4 +12,9 @@
       <ProjectReference Include="..\DeviceManagement.Exception\DeviceManagement.Exception.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
+    </ItemGroup>
+
 </Project>

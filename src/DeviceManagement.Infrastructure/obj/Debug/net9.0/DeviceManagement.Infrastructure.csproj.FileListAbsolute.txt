@@ -13,3 +13,10 @@
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/refint/DeviceManagement.Infrastructure.dll
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.pdb
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/ref/DeviceManagement.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.pdb
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.sourcelink.json

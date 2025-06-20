@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeviceManagement.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a19c088a8608460f6904263e3fe06485587c087")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeviceManagement.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeviceManagement.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

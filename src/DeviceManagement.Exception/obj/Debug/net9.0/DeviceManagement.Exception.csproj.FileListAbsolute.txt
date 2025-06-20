@@ -9,3 +9,4 @@
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/refint/DeviceManagement.Exception.dll
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.pdb
 /Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/ref/DeviceManagement.Exception.dll
+/Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.sourcelink.json
