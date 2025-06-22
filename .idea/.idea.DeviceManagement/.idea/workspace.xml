@@ -9,88 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6686daa8-4182-4caf-87ab-555a7983157c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Controllers/CustomersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Extensions/DependencyInjectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Middleware/ExceptionHandlingMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/Services/Auth/ITokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Auth/Login/ILoginUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Auth/Login/LoginUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/CreateCustomer/CreateCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/CreateCustomer/ICreateCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/DeleteCustomer/DeleteCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/DeleteCustomer/IDeleteCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/GetCustomer/GetCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/GetCustomer/IGetCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/UpdateCustomer/IUpdateCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Customer/UpdateCustomer/UpdateCustomerUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Dashboard/GetDashboard/GetDashboardUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Dashboard/GetDashboard/IGetDashboardUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Device/CreateDevice/CreateDeviceUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Device/CreateDevice/ICreateDeviceUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Device/GetDevice/GetDeviceUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Device/GetDevice/IGetDeviceUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Event/CreateEvent/CreateEventUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Event/CreateEvent/ICreateEventUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Event/GetEvent/GetEventUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/UseCases/Event/GetEvent/IGetEventUseCase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Requests/Auth/LoginRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Requests/Customer/CreateCustomerRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Requests/Customer/UpdateCustomerRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Requests/Device/CreateDeviceRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Requests/Event/CreateEventRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Responses/Auth/LoginResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Responses/Customer/CustomerResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Responses/Dashboard/DashboardResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Responses/Device/DeviceResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/Responses/Event/EventResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Entities/Base/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Entities/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Entities/Device.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Entities/Event.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Enums/EnventType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Repositories/ICustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Repositories/IDeviceRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Repositories/IEventRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/Repositories/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/ExceptionsBase/ConflictException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/ExceptionsBase/DeviceManagementException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/ExceptionsBase/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/ExceptionsBase/ValidationErrorsException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Configurations/CustomerConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Configurations/DeviceConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Configurations/EventConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Configurations/UserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/DeviceManagementDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Repositories/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Repositories/DeviceRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Repositories/EventRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DatabaseSeeder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/Services/TokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/UseCases/Auth/LoginUseCaseTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/UseCases/Customer/CreateCustomerUseCaseTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/Entities/CustomerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/Entities/DeviceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/Entities/EventTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DataSeedConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/Services/PasswordHashService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeviceManagement.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DeviceManagement.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/01-create-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/01-create-database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/02-create-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/02-create-tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/03-seed-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/03-seed-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run-complete-net9.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/Controllers/ClientsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/DeviceManagement.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/DeviceManagement.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/Docker/compose.generated.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/Docker/compose.generated.override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/01-create-database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/02-create-tables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/03-seed-data.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Api.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Communication.dll" afterDir="false" />
@@ -101,31 +30,223 @@
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Exception.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Exception.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/DeviceManagement.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/bin/Debug/net9.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/.nupkg.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator.9.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator.9.0.0.nupkg.sha512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/DotnetToolSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.Elfie.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.Features.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.CodeAnalysis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.DiaSymReader.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.DotNet.Scaffolding.Shared.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Mono.TextTemplating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.DependencyResolver.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.LibraryModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Packaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.ProjectModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Protocol.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/NuGet.Versioning.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.CodeDom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Security.Cryptography.Pkcs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/af/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ar/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/az/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/bg/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/bn-BD/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/build/microsoft.visualstudio.web.codegeneration.tools.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/buildMultiTargeting/microsoft.visualstudio.web.codegeneration.tools.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/da/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/dotnet-aspnet-codegenerator.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/dotnet-aspnet-codegenerator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/dotnet-aspnet-codegenerator.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/dotnet-aspnet-codegenerator.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/dotnet-aspnet-codegenerator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/el/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fa/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fi-FI/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr-BE/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/he/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/hr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/hu/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/hy/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/id/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/is/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko-KR/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ku/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/lv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ms-MY/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/mt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/nb-NO/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/nb/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/nl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/pt/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ro/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/shims/win-x64/dotnet-aspnet-codegenerator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/shims/win-x86/dotnet-aspnet-codegenerator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/sk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/sl/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/sr-Latn/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/sr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/sv/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/th-TH/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/toolassets/net8.0/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/uk/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/uz-Cyrl-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/uz-Latn-UZ/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/vi/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-CN/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Humanizer.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/dotnet-aspnet-codegenerator/9.0.0/tools/net8.0/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/.store/dotnet-aspnet-codegenerator/9.0.0/project.assets.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/ref/DeviceManagement.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/ref/DeviceManagement.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/refint/DeviceManagement.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/Debug/net9.0/refint/DeviceManagement.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.codegeneration.targets" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/DeviceManagement.Api.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/dotnet-aspnet-codegenerator" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/DeviceManagement.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/DeviceManagement.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Communication.dll" afterDir="false" />
@@ -136,104 +257,85 @@
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Exception.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/bin/Debug/net9.0/DeviceManagement.Exception.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/DeviceManagement.Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/ref/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/ref/DeviceManagement.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/refint/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/Debug/net9.0/refint/DeviceManagement.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/DeviceManagement.Application.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/DeviceManagement.Communication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Communication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/bin/Debug/net9.0/DeviceManagement.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/DeviceManagement.Communication.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/ref/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/ref/DeviceManagement.Communication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/refint/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/Debug/net9.0/refint/DeviceManagement.Communication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/DeviceManagement.Communication.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Communication/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/DeviceManagement.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/bin/Debug/net9.0/DeviceManagement.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/DeviceManagement.Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/ref/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/ref/DeviceManagement.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/refint/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/Debug/net9.0/refint/DeviceManagement.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/DeviceManagement.Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/Class1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/bin/Debug/net9.0/DeviceManagement.Exception.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/DeviceManagement.Exception.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/ref/DeviceManagement.Exception.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/ref/DeviceManagement.Exception.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/refint/DeviceManagement.Exception.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/Debug/net9.0/refint/DeviceManagement.Exception.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Exception/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/DeviceManagementDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/DeviceManagementDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250619172620_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250619172620_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250620113130_SeedInitialData.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250620113130_SeedInitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250620113732_SeedInitialDate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/20250620113732_SeedInitialDate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Migrations/DeviceManagementDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DatabaseSeeder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Communication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Exception.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/bin/Debug/net9.0/DeviceManagement.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/DeviceManagement.Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/ref/DeviceManagement.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/ref/DeviceManagement.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/refint/DeviceManagement.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/Debug/net9.0/refint/DeviceManagement.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/DeviceManagement.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/Debug/net9.0/DeviceManagement.Application.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Application.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DeviceManagement.Domain.Tests/obj/Debug/net9.0/DeviceManagement.Domain.Tests.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,18 +353,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LeonardoAlbano"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeonardoAlbano&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LeonardoAlbano/DeviceManagementAPI.git",
-    "accountId": "8bfa5778-2252-4f28-92d7-5b4c5f058701"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeonardoAlbano/DeviceManagementAPI.git&quot;,
+    &quot;accountId&quot;: &quot;8bfa5778-2252-4f28-92d7-5b4c5f058701&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/afa9cc6b359e72bf506f6ed718bc797a73c32fc954f4d9a6ec17e3d972fcd2/HealthCheckServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -282,9 +384,11 @@
   "keyToString": {
     ".NET Launch Settings Profile.DeviceManagement.Api: http.executor": "Run",
     "Docker.DeviceManagement.Api/Dockerfile.executor": "Run",
+    "Docker.compose.yaml.devicemanagement_api: Compose Deployment.executor": "Run",
     "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "/Users/leonardoalbano/Library/Application Support/JetBrains/Rider2025.1/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -370,6 +474,25 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <configuration name="compose.yaml.devicemanagement_api: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="devicemanagement_api" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.compose.yaml.devicemanagement_api: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -379,7 +502,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750214261436</updated>
       <workItem from="1750214263122" duration="3549000" />
-      <workItem from="1750237204144" duration="35267000" />
+      <workItem from="1750237204144" duration="38182000" />
+      <workItem from="1750615907687" duration="4323000" />
     </task>
     <task id="LOCAL-00001" summary="create: create swagger and config">
       <option name="closed" value="true" />
@@ -389,7 +513,47 @@
       <option name="project" value="LOCAL" />
       <updated>1750238156945</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create project and fix bug">
+      <option name="closed" value="true" />
+      <created>1750437178875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750437178876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create project and fix bug">
+      <option name="closed" value="true" />
+      <created>1750437203862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750437203862</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create project and fix bug">
+      <option name="closed" value="true" />
+      <created>1750437231872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750437231872</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create project and fix bug">
+      <option name="closed" value="true" />
+      <created>1750437273185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750437273185</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create project and fix bug">
+      <option name="closed" value="true" />
+      <created>1750437279747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750437279747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +564,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="create: create swagger and config" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: create swagger and config" />
+    <MESSAGE value="create" />
+    <MESSAGE value="create project and fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project and fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

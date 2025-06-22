@@ -49,13 +49,6 @@ builder.Services.AddSwaggerGen(c =>
             Array.Empty<string>()
         }
     });
-
-    var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    if (File.Exists(xmlPath))
-    {
-        c.IncludeXmlComments(xmlPath);
-    }
 });
 
 builder.Services.AddDbContext<DeviceManagementDbContext>(options =>
@@ -85,7 +78,6 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddAuthorization();
-
 builder.Services.AddDependencyInjection();
 
 builder.Services.AddCors(options =>
@@ -113,22 +105,32 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
-
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
-
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapHealthChecks("/health");
-
 app.MapControllers();
 
+// ✅ EXECUTAR MIGRATIONS AUTOMATICAMENTE EM DESENVOLVIMENTO
 if (app.Environment.IsDevelopment())
 {
     using var scope = app.Services.CreateScope();
     var context = scope.ServiceProvider.GetRequiredService<DeviceManagementDbContext>();
-    await context.Database.MigrateAsync();
+    
+    try
+    {
+        Console.WriteLine("🔄 Executando migrations...");
+        await context.Database.MigrateAsync();
+        Console.WriteLine("✅ Migrations executadas com sucesso!");
+        Console.WriteLine("📧 Usuário padrão: admin@devicemanagement.com");
+        Console.WriteLine("🔑 Senha padrão: Admin123@");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Erro durante migrations: {ex.Message}");
+        throw;
+    }
 }
 
 app.Run();

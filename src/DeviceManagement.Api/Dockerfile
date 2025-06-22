@@ -6,6 +6,8 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+
+# Copy project files
 COPY ["src/DeviceManagement.Api/DeviceManagement.Api.csproj", "src/DeviceManagement.Api/"]
 COPY ["src/DeviceManagement.Application/DeviceManagement.Application.csproj", "src/DeviceManagement.Application/"]
 COPY ["src/DeviceManagement.Domain/DeviceManagement.Domain.csproj", "src/DeviceManagement.Domain/"]
@@ -13,15 +15,22 @@ COPY ["src/DeviceManagement.Infrastructure/DeviceManagement.Infrastructure.cspro
 COPY ["src/DeviceManagement.Communication/DeviceManagement.Communication.csproj", "src/DeviceManagement.Communication/"]
 COPY ["src/DeviceManagement.Exception/DeviceManagement.Exception.csproj", "src/DeviceManagement.Exception/"]
 
+# Restore dependencies
 RUN dotnet restore "src/DeviceManagement.Api/DeviceManagement.Api.csproj"
+
+# Copy source code
 COPY . .
+
+# Build
 WORKDIR "/src/src/DeviceManagement.Api"
 RUN dotnet build "./DeviceManagement.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
+# Publish
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./DeviceManagement.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
+# Final stage
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .

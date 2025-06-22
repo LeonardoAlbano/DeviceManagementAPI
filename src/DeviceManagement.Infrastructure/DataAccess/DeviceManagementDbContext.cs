@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using DeviceManagement.Domain.Entities;
 using DeviceManagement.Infrastructure.DataAccess.Configurations;
+using DeviceManagement.Infrastructure.DataAccess.Seed;
 
 namespace DeviceManagement.Infrastructure.DataAccess;
 
@@ -24,7 +25,20 @@ public class DeviceManagementDbContext : DbContext
 
         ConfigureGlobalSettings(modelBuilder);
 
+        DataSeedConfiguration.SeedData(modelBuilder);
+
         base.OnModelCreating(modelBuilder);
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(Microsoft.EntityFrameworkCore.Diagnostics.RelationalEventId.PendingModelChangesWarning));
+        }
+        
+        base.OnConfiguring(optionsBuilder);
     }
 
     private static void ConfigureGlobalSettings(ModelBuilder modelBuilder)
@@ -64,8 +78,6 @@ public class DeviceManagementDbContext : DbContext
 
         foreach (var entry in entries)
         {
-            var entity = (Domain.Entities.Base.BaseEntity)entry.Entity;
-            
             if (entry.State == EntityState.Added)
             {
                 entry.Property("CreatedAt").CurrentValue = DateTime.UtcNow;
