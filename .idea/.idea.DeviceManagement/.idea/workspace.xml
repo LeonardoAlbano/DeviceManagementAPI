@@ -10,6 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6686daa8-4182-4caf-87ab-555a7983157c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750624645792</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix: fix and bug">
+      <option name="closed" value="true" />
+      <created>1750627357769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750627357769</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +362,8 @@
     <MESSAGE value="create: Create seed for DB" />
     <MESSAGE value="fix: ajust bug, and fix migrations conflit" />
     <MESSAGE value="create: create new migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: create new migration" />
+    <MESSAGE value="fix: fix and bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix and bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

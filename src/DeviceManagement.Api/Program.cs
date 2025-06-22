@@ -112,7 +112,6 @@ app.UseAuthorization();
 app.MapHealthChecks("/health");
 app.MapControllers();
 
-// ✅ EXECUTAR MIGRATIONS AUTOMATICAMENTE EM DESENVOLVIMENTO
 if (app.Environment.IsDevelopment())
 {
     using var scope = app.Services.CreateScope();
