@@ -12,7 +12,7 @@ public static class DatabaseSeeder
 
         var adminUser = new User(
             name: "Administrator",
-            email: "admin@devicemanagement.com",
+            email: "admin@devicemanagement.com", 
             password: "Admin123@",
             role: "Admin"
         );

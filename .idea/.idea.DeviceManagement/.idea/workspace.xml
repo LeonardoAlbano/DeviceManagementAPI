@@ -10,6 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6686daa8-4182-4caf-87ab-555a7983157c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DatabaseSeeder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/afa9cc6b359e72bf506f6ed718bc797a73c32fc954f4d9a6ec17e3d972fcd2/HealthCheckServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/leonardoalbano/RiderProjects/DeviceManagement/src/DeviceManagement.Api/obj/Debug/net9.0/DeviceManagement.Api.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
