@@ -9,7 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6686daa8-4182-4caf-87ab-555a7983157c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeviceManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DataSeedConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManagement.Infrastructure/DataAccess/Seed/DataSeedConfiguration.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -271,7 +272,47 @@
       <option name="project" value="LOCAL" />
       <updated>1750621620811</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create: create seedDB">
+      <option name="closed" value="true" />
+      <created>1750621726990</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750621726990</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create: create seedDB">
+      <option name="closed" value="true" />
+      <created>1750621731959</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750621731959</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create: create seedDB">
+      <option name="closed" value="true" />
+      <created>1750621757718</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750621757718</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create: create seedDB">
+      <option name="closed" value="true" />
+      <created>1750621766265</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750621766265</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create: create seedDB">
+      <option name="closed" value="true" />
+      <created>1750621770304</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750621770304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +326,8 @@
     <MESSAGE value="fix: correct bug User ADM, passwordHash and seed DB" />
     <MESSAGE value="create project and fix bug" />
     <MESSAGE value="create" />
-    <option name="LAST_COMMIT_MESSAGE" value="create" />
+    <MESSAGE value="create: create seedDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="create: create seedDB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

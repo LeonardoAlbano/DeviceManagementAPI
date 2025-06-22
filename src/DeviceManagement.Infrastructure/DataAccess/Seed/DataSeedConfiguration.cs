@@ -7,7 +7,6 @@ namespace DeviceManagement.Infrastructure.DataAccess.Seed;
 
 public static class DataSeedConfiguration
 {
-    // ✅ VALORES ESTÁTICOS - Não mudam entre builds
     private static readonly Guid AdminUserId = Guid.Parse("11111111-1111-1111-1111-111111111111");
     private static readonly Guid SampleCustomerId = Guid.Parse("22222222-2222-2222-2222-222222222222");
     private static readonly Guid SampleDeviceId = Guid.Parse("33333333-3333-3333-3333-333333333333");
@@ -23,9 +22,8 @@ public static class DataSeedConfiguration
 
     private static void SeedUsers(ModelBuilder modelBuilder)
     {
-        // ✅ Gerar hash compatível com a classe User
         var password = "Admin123@";
-        var salt = "V8F+oh2ckfxVixGUeHyxtQ=="; // Salt fixo para o seed
+        var salt = "V8F+oh2ckfxVixGUeHyxtQ==";
         var passwordHash = GenerateCompatibleHash(password, salt);
 
         modelBuilder.Entity<User>().HasData(new
@@ -42,9 +40,6 @@ public static class DataSeedConfiguration
         });
     }
 
-    /// <summary>
-    /// Gera hash compatível com o algoritmo da classe User
-    /// </summary>
     private static string GenerateCompatibleHash(string password, string salt)
     {
         var combined = password + salt;
@@ -58,8 +53,8 @@ public static class DataSeedConfiguration
         modelBuilder.Entity<Customer>().HasData(new
         {
             Id = SampleCustomerId,
-            Name = "Empresa Exemplo Ltda",
-            Email = "contato@exemplo.com",
+            Name = "Example Company Ltd.",
+            Email = "contact@example.com",
             Phone = "11999999999",
             Status = true,
             CreatedAt = BaseDate,
@@ -89,7 +84,7 @@ public static class DataSeedConfiguration
             {
                 Id = Guid.Parse("44444444-4444-4444-4444-444444444441"),
                 Type = Domain.Enums.EventType.TurnedOn,
-                Observations = "Dispositivo ligado - Seed inicial",
+                Observations = "Device turned on - Initial seed",
                 EventDateTime = BaseDate.AddHours(-2),
                 DeviceId = SampleDeviceId,
                 CreatedAt = BaseDate,
@@ -99,7 +94,7 @@ public static class DataSeedConfiguration
             {
                 Id = Guid.Parse("44444444-4444-4444-4444-444444444442"),
                 Type = Domain.Enums.EventType.Movement,
-                Observations = "Movimento detectado - Seed inicial",
+                Observations = "Movement detected - Initial seed",
                 EventDateTime = BaseDate.AddHours(-1),
                 DeviceId = SampleDeviceId,
                 CreatedAt = BaseDate,
@@ -109,7 +104,7 @@ public static class DataSeedConfiguration
             {
                 Id = Guid.Parse("44444444-4444-4444-4444-444444444443"),
                 Type = Domain.Enums.EventType.SignalLoss,
-                Observations = "Perda de sinal - Seed inicial",
+                Observations = "Signal loss - Initial seed",
                 EventDateTime = BaseDate.AddMinutes(-30),
                 DeviceId = SampleDeviceId,
                 CreatedAt = BaseDate,
