@@ -271,18 +271,3 @@ docker compose ps
 - ✅ **Testes unitários** com boa cobertura
 - ✅ **Clean Architecture** bem estruturada
 
-## 👨‍💻 Para o Tech Lead
-
-### Teste Rápido (5 minutos)
-1. `docker compose up --build`
-2. Acesse http://localhost:5000
-3. Login: `admin@devicemanagement.com` / `Admin123@`
-4. Teste qualquer endpoint no Swagger
-
-### Avaliação Completa
-1. Execute `./scripts/test-all-endpoints.sh`
-2. Verifique `dotnet test` 
-3. Analise arquitetura em `/src`
-4. Revise migrations em `/Infrastructure/Migrations`
-
-**A API está 100% funcional e pronta para produção!** 🚀
