@@ -71,6 +71,18 @@ namespace DeviceManagement.Infrastructure.DataAccess.Migrations
                         .HasDatabaseName("IX_Customers_Status");
 
                     b.ToTable("Customers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("22222222-2222-2222-2222-222222222222"),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            Email = "contact@example.com",
+                            Name = "Example Company Ltd.",
+                            Phone = "11999999999",
+                            Status = true,
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        });
                 });
 
             modelBuilder.Entity("DeviceManagement.Domain.Entities.Device", b =>
@@ -125,6 +137,18 @@ namespace DeviceManagement.Infrastructure.DataAccess.Migrations
                         .HasDatabaseName("IX_Devices_Serial");
 
                     b.ToTable("Devices", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("33333333-3333-3333-3333-333333333333"),
+                            ActivationDate = new DateTime(2024, 5, 21, 12, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            CustomerId = new Guid("22222222-2222-2222-2222-222222222222"),
+                            IMEI = "123456789012345",
+                            Serial = "DEV001",
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        });
                 });
 
             modelBuilder.Entity("DeviceManagement.Domain.Entities.Event", b =>
@@ -177,6 +201,38 @@ namespace DeviceManagement.Infrastructure.DataAccess.Migrations
                         .HasDatabaseName("IX_Events_Type_EventDateTime");
 
                     b.ToTable("Events", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("44444444-4444-4444-4444-444444444441"),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            DeviceId = new Guid("33333333-3333-3333-3333-333333333333"),
+                            EventDateTime = new DateTime(2024, 6, 20, 10, 0, 0, 0, DateTimeKind.Utc),
+                            Observations = "Device turned on - Initial seed",
+                            Type = 0,
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        },
+                        new
+                        {
+                            Id = new Guid("44444444-4444-4444-4444-444444444442"),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            DeviceId = new Guid("33333333-3333-3333-3333-333333333333"),
+                            EventDateTime = new DateTime(2024, 6, 20, 11, 0, 0, 0, DateTimeKind.Utc),
+                            Observations = "Movement detected - Initial seed",
+                            Type = 2,
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        },
+                        new
+                        {
+                            Id = new Guid("44444444-4444-4444-4444-444444444443"),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            DeviceId = new Guid("33333333-3333-3333-3333-333333333333"),
+                            EventDateTime = new DateTime(2024, 6, 20, 11, 30, 0, 0, DateTimeKind.Utc),
+                            Observations = "Signal loss - Initial seed",
+                            Type = 3,
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        });
                 });
 
             modelBuilder.Entity("DeviceManagement.Domain.Entities.User", b =>
@@ -239,6 +295,20 @@ namespace DeviceManagement.Infrastructure.DataAccess.Migrations
                         .IsUnique();
 
                     b.ToTable("Users", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("11111111-1111-1111-1111-111111111111"),
+                            CreatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc),
+                            Email = "admin@devicemanagement.com",
+                            IsActive = true,
+                            Name = "Administrator",
+                            PasswordHash = "4AaJ9AbWA1GYMhUSgRFxX6Npy7ig1OEcFvsRcy8YBkk=",
+                            Role = "Admin",
+                            Salt = "V8F+oh2ckfxVixGUeHyxtQ==",
+                            UpdatedAt = new DateTime(2024, 6, 20, 12, 0, 0, 0, DateTimeKind.Utc)
+                        });
                 });
 
             modelBuilder.Entity("DeviceManagement.Domain.Entities.Device", b =>
