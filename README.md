@@ -39,7 +39,7 @@ docker compose up --build
 O sistema cria automaticamente via migrations:
 
 - **Email**: `admin@devicemanagement.com`
-- **Senha**: `Admin123@` ⚠️ **CORREÇÃO**: Era `Admin123!` no README original
+- **Senha**: `Admin123@`
 
 ## 🧪 Como Testar a API
 
