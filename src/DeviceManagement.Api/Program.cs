@@ -100,7 +100,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Device Management API v1 (.NET 9.0)");
-        c.RoutePrefix = string.Empty;
     });
 }
 
